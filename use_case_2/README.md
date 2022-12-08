@@ -22,7 +22,7 @@ Retrieve details from MessageBird
     * Payload: `None`
 
     The `document_id` can be found in the Google Docs URL. 
-    ```json
+    ```
     # Sample URL
     "https://docs.google.com/spreadsheets/d/1m3vhA2A2ACOfcKJnfjGPybyIlQwYPxIyMf0F0gJjgHQ"
     The value after "/d/"  is the "document_id": "1m3vhA2A2ACOfcKJnfjGPybyIlQwYPxIyMf0F0gJjgHQ"
