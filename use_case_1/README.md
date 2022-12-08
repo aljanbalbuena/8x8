@@ -14,7 +14,7 @@ Retrieve details from MessageBird
     cd message
     python manage.py runserver
     ```
-
+3. Replace `TEST_KEY` in project `settings.py` with own MessageBird API Key
 4. Access endpoint
     * URL: `http://localhost:8000/detail/`
     * Method: `POST`
