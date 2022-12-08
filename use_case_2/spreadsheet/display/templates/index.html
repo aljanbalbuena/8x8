@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+    {% load static %}
+    {{ table_html | safe }}
+    <script src="{% static 'sortable.js'%}"></script>
+</body>
+</html>
