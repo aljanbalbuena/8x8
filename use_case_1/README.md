@@ -9,12 +9,14 @@ Retrieve details from MessageBird
 ## How to run
 
 1. Install required libraries listed in `requirements.txt`
-2. Create server 
-    * `cd message`
-    * `python manage.py runserver`
+2. Create server
+    ```
+    cd message
+    python manage.py runserver
+    ```
 
-3. Access endpoint
-    * URL: `http://localhost:8000/detail`
+4. Access endpoint
+    * URL: `http://localhost:8000/detail/`
     * Method: `POST`
     * Headers: `None`
     * Payload:
