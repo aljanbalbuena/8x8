@@ -1,6 +1,6 @@
-# Use Case 1
+# Use Case 2
 
-Retrieve details from MessageBird
+Retrieve spreadsheet from Google Docs and display content as a sortable table
 
 ## Prerequisites
 
