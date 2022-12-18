@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-gd2qbvir8#jtu4x145tgc1@8znfxi7@cko@9_94x_7dt4269@_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -126,5 +126,5 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Should be further abstracted in actual implementation
-TEST_KEY = "TrQD7bewsNMkcN0x4y3ny0dYb"
+TEST_KEY = "w4fz1NqE4eucf4en8p4mLsZ3K"
 MESSAGEBIRD_URL = "https://rest.messagebird.com/lookup"
